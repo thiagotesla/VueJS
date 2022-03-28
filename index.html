@@ -9,5 +9,20 @@
 </head>
 <body>
     <h1>Hello, World</h1>
+
+    <div id="app">
+
+        {{ message }}            
+
+    </div>
+
+    <script>
+        new Vue({el: '#app',
+            data: {
+                message: 'Primeiro template controlado pelo VueJS'
+            }
+        })
+
+    </script>
 </body>
 </html>

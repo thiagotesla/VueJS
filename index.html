@@ -6,37 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="./vue.js"></script>
     <title>Vue</title>
+    <style>
+        .red{
+            color: red; 
+        }
+        .center{
+            text-align: center;
+        }
+    </style>
 </head>
-<body>
-    <h1>Hello, World</h1>
 
-    <div id="app">
-           {{ sum() }} <br>
-           {{ subtraction() }} <br>
-           {{ multiplication() }} <br>
-           {{ division() }} <br>
+<body >
+    <div id="app" v-bind:class="center">
+        <h1>Hello, World</h1>
+
+        <a v-bind:href="url">This Site</a> <br>
+        <p v-bind:class="color" > Link to this same site </p>
+        <input v-bind:class="center" type="text" name="" id="" v-bind:placeholder="placeholder">
+        <input type="checkbox" name="" id="" v-bind:checked="check">
+        <select name="" id=""></select>
     </div>
 
     <script>
         new Vue({el: '#app',
             data: {
-                n1: 10,
-                n2: 5
+                url: 'http://127.0.0.1:5500',
+                color: 'red',
+                placeholder: 'http://127.0.0.1:5500',
+                check: true,
+                center: 'center'
             },
-            methods: {
-                sum: function sum(){  
-                    return this.n1 + this.n2
-                },
-                subtraction: function(){ 
-                    return this.n1 - this.n2
-                },
-                multiplication: () => { 
-                    return this.n1 * this.n2
-                },
-                division() { 
-                    return this.n1 / this.n2
-                },
-            }
+            methods: {},
         })
 
     </script>

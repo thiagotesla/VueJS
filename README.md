@@ -1,5 +1,20 @@
-# VueJS
 
+
+<p align="center">
+ # VueJS
+ </p>
+
+
+<p align="center">
+ VueJS study repo.
+ </p>
+
+
+
+<p align="center">
+ <img style="margin-top:10px;" src="https://hsro-inf-wt.github.io/assets/vuejs.gif" width="400px">
+ </p>
+ 
 - [x] VueJS introduction
 - [x] Installing development tools
 - [x] Inicialyzing frontend with VueJS

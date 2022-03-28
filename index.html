@@ -13,17 +13,20 @@
         .center{
             text-align: center;
         }
+        .bold{
+            font-weight: bold;
+        }
     </style>
 </head>
 
 <body >
-    <div id="app" v-bind:class="center">
+    <div id="app" :class="center">
         <h1>Hello, World</h1>
 
-        <a v-bind:href="url">This Site</a> <br>
-        <p v-bind:class="color" > Link to this same site </p>
-        <input v-bind:class="center" type="text" name="" id="" v-bind:placeholder="placeholder">
-        <input type="checkbox" name="" id="" v-bind:checked="check">
+        <a :href="url">This Site</a> <br>
+        <p :class="color" class="bold"> Link to this same site </p>
+        <input :class="center" type="text" name="" id="" :placeholder="placeholder">
+        <input type="checkbox" name="" id="" :checked="check">
         <select name="" id=""></select>
     </div>
 

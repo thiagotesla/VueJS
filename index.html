@@ -11,31 +11,28 @@
     <h1>Hello, World</h1>
 
     <div id="app">
-
-        {{ message }} <br>
-        {{ name }} <br>
-        {{ area }} <br>
-        {{ languages[0] }}, {{ languages[1] }}  <br>
-        {{ person.name }} <br> 
-        Favorite pet: {{ person.pets[0] }}           
-
+           {{ sum() }} <br>
+           {{ subtraction() }} <br>
+           {{ multiplication() }} <br>
+           {{ division() }} <br>
     </div>
 
     <script>
         new Vue({el: '#app',
-            data: {
-                message: 'First template controlfed by VueJS',
-                name: 'Vue Application',
-                area: 20,
-                languages: [ 'JavaScript', 'PHP'],
-                person: {
-                    name: 'Jonh Doe',
-                    age: '29',
-                    pets: [
-                        'Cat', 'Dog', 'Fish'
-                    ]
-                }
-
+            data: {},
+            methods: {
+                sum: function sum(){ // convencional 
+                    return 4 + 2
+                },
+                subtraction: function(){ // anônima
+                    return 4 - 2
+                },
+                multiplication: () => { // função flecha arrow function
+                    return 4 * 2
+                },
+                division() { // par chave valor
+                    return 4%2
+                },
             }
         })
 

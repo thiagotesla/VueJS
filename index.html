@@ -1,37 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="./vue.js"></script>
     <title>Vue</title>
-    
+    <style>
+        .border {
+            border: 1px solid;
+        }
+
+        .principal {
+            width: 200px;
+            height: 200px;
+        }
+
+        .comum {
+            width: 50px;
+            height: 50px;
+            display: inline-block;
+        }
+
+        .green {
+            background-color: green;
+        }
+
+        .white {
+            background-color: white;
+        }
+
+        .blue {
+            background-color: blue;
+        }
+
+        .red {
+            background-color: red;
+        }
+    </style>
+
 </head>
 
-<body >
-    <div id="app" style="text-align: center;">
-        <h1>Hello, World</h1>
-        <input type="text" v-on:keyup="printText('Sending param', bol, $event)">
-        <button @click="alertMessage()"> Button </button>
-
+<body>
+    <div id="app">
+        <div class="principal border" :class="color">
+            {{ X }} <br>
+            {{ Y }} <br>
+            {{ Sum }}
+        </div>
+        <hr>
+        <div @click='changeColor("green")' class="comum border"></div>
+        <div @mouseover="changeBgToBlue('blue')" @mouseout="changeBgToRed('red')" class="comum border"></div>
+        <div @mousemove="show($event)" @mouseout="clear()" class="comum border"></div>
     </div>
 
     <script>
-        new Vue({el: '#app',
+        new Vue({
+            el: '#app',
             data: {
-                bol: true
+                color: 'white',
+                X: '',
+                Y: '',
+                Sum: ''
             },
             methods: {
-                printText(t, b, event){
-                    console.log(t, b, event)
+                changeColor(changeToGreen) {
+                    this.color = changeToGreen
                 },
-                alertMessage(){
-                    alert('Alert Message!')
+                changeBgToBlue(changeToBlue) {
+                    this.color = changeToBlue
                 },
+                changeBgToRed(changeToRed) {
+                    this.color = changeToRed
+                },
+                show(e) {
+                    this.X = `${'Position X:' + e.clientX }`
+                    this.Y = `${'Position Y:' + e.clientY }`
+                    let a = e.clientX
+                    let b = e.clientY
+                    this.Sum = `${"Sum: " + (a + b)}`
+                    this.color = 'white'
+                },
+                clear() {
+                    this.X =''
+                    this.Y = ''
+                    this.Sum = ''
+                }
             },
         })
 
     </script>
 </body>
+
 </html>

@@ -12,17 +12,20 @@
 <body >
     <div id="app" style="text-align: center;">
         <h1>Hello, World</h1>
-        <input type="text" v-on:keyup="printText()">
+        <input type="text" v-on:keyup="printText('Sending param', bol)">
         <button @click="alertMessage()"> Button </button>
 
     </div>
 
     <script>
         new Vue({el: '#app',
-            data: {},
+            data: {
+                bol: true
+            },
             methods: {
-                printText(){
-                    console.log('Test')
+                printText(t, b){
+                    console.log(t)
+                    console.log(b)
                 },
                 alertMessage(){
                     alert('Alert Message!')

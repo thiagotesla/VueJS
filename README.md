@@ -25,4 +25,4 @@
 - [x] Binding HTML tags attibutes by v-bind directive
 - [x] V-bind sugar syntax and value overlapping/chaining
 - [x] Using expression on data binding
-- [x] V-on directive: handling events with and sugar syntax
+- [x] V-on directive: handling events and sugar syntax

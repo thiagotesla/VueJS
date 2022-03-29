@@ -24,4 +24,5 @@
 - [x] Getting attributes from 'data'
 - [x] Binding HTML tags attibutes by v-bind directive
 - [x] V-bind sugar syntax and value overlapping/chaining
-- [x] Using expression on data binding 
+- [x] Using expression on data binding
+- [x] V-on directive: handling events with and sugar syntax

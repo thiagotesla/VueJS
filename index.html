@@ -12,21 +12,22 @@
 <body >
     <div id="app" style="text-align: center;">
         <h1>Hello, World</h1>
-        {{ message }}:  just show message attribute value<br><hr> 
-        {{ message.length }}: show message attribure length<br><hr>
-        {{ message.toUpperCase() }}: put message attribute to UPPER Case<br><hr> 
-        {{ message.toLowerCase() }}: put message atribute to lower case<br><hr>
-        {{ +message.length + +message.length}}: make a number from message atribute length and sum with a number from message atribute length<br><hr> 
-        <p> <input  :value="message"></p><hr>
-        
+        <input type="text" v-on:keyup="printText()">
+        <button @:click="alertMessage()"> Button </button>
+
     </div>
 
     <script>
         new Vue({el: '#app',
-            data: {
-                message: 'Expression',
+            data: {},
+            methods: {
+                printText(){
+                    console.log('Test')
+                },
+                alertMessage(){
+                    alert('Alert Message!')
+                },
             },
-            methods: {},
         })
 
     </script>

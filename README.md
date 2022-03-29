@@ -27,3 +27,4 @@
 - [x] Using expression on data binding
 - [x] V-on directive: handling events and sugar syntax
 - [x] Sending params to methods  
+- [x] Catching event data through $event

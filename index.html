@@ -12,7 +12,7 @@
 <body >
     <div id="app" style="text-align: center;">
         <h1>Hello, World</h1>
-        <input type="text" v-on:keyup="printText('Sending param', bol)">
+        <input type="text" v-on:keyup="printText('Sending param', bol, $event)">
         <button @click="alertMessage()"> Button </button>
 
     </div>
@@ -23,9 +23,8 @@
                 bol: true
             },
             methods: {
-                printText(t, b){
-                    console.log(t)
-                    console.log(b)
+                printText(t, b, event){
+                    console.log(t, b, event)
                 },
                 alertMessage(){
                     alert('Alert Message!')

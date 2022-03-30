@@ -7,87 +7,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="./vue.js"></script>
     <title>Vue</title>
-    <style>
-        .border {
-            border: 1px solid;
-        }
-
-        .principal {
-            width: 200px;
-            height: 200px;
-        }
-
-        .comum {
-            width: 50px;
-            height: 50px;
-            display: inline-block;
-        }
-
-        .green {
-            background-color: green;
-        }
-
-        .white {
-            background-color: white;
-        }
-
-        .blue {
-            background-color: blue;
-        }
-
-        .red {
-            background-color: red;
-        }
-    </style>
-
 </head>
 
 <body>
     <div id="app">
-        <div class="principal border" :class="color">
-            {{ X }} <br>
-            {{ Y }} <br>
-            {{ Sum }}
-        </div>
+        <a href="https://google.com"
+            target="_blank"
+            @click.prevent=" preventDefault()"
+        >
+        Link
+        </a>
+        <br>
+        {{ msg }}
         <hr>
-        <div @click='changeColor("green")' class="comum border"></div>
-        <div @mouseover="changeBgToBlue('blue')" @mouseout="changeBgToRed('red')" class="comum border"></div>
-        <div @mousemove="show($event)" @mouseout="clear()" class="comum border"></div>
+        <button @click.once="execOnce()">Botão</button>
+        <p>Clicks: {{ clicks }} </p>
+        <hr>
+        <form @submit.prevent.once="preventOnce()">
+            <button type="submit">Enviar</button>
+        </form>
+        <p>Form: {{ form }}</p>
+        <hr>
+        <input type="text" @keyup.Shift.Enter="catchingKeys($event)">
+        <p>Keys: {{ keys }}</p>
     </div>
 
     <script>
-        new Vue({
+
+        const vm = new Vue({
             el: '#app',
             data: {
-                color: 'white',
-                X: '',
-                Y: '',
-                Sum: ''
+                msg: '',
+                clicks: 0,
+                form: '',
+                keys: ''
             },
             methods: {
-                changeColor(changeToGreen) {
-                    this.color = changeToGreen
+                preventDefault() {
+                    this.msg = 'Message: Comportamento padrão ativado'
                 },
-                changeBgToBlue(changeToBlue) {
-                    this.color = changeToBlue
+                execOnce() {
+                    this.clicks++
                 },
-                changeBgToRed(changeToRed) {
-                    this.color = changeToRed
+                preventOnce() {
+                    this.form = 'Prevenindo o comportamento padrão'
                 },
-                show(e) {
-                    this.X = `${'Position X:' + e.clientX }`
-                    this.Y = `${'Position Y:' + e.clientY }`
-                    let a = e.clientX
-                    let b = e.clientY
-                    this.Sum = `${"Sum: " + (a + b)}`
-                    this.color = 'white'
-                },
-                clear() {
-                    this.X =''
-                    this.Y = ''
-                    this.Sum = ''
+                catchingKeys(event) {
+                    this.keys = 'Modificadores encadeados com sucesso!'
                 }
-            },
+            }
         })
 
     </script>

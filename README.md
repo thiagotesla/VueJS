@@ -28,4 +28,5 @@
 - [x] V-on directive: handling events and sugar syntax
 - [x] Sending params to methods  
 - [x] Catching event data through $event
-- [x] Hands on - practicing with data, methods, template string, v-bind and v-on 
+- [x] Hands on - practicing with data, methods, template string, v-bind and v-on
+- [x] V-on directive: implementing modifyers

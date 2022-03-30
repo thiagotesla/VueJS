@@ -31,3 +31,5 @@
 - [x] [Hands on - practicing with data, methods, template string, v-bind and v-on](https://github.com/thiagotesla/VueJS/blob/main/lessons/11-hands-on-practicing-with-data-methods-template-string-v-bind-and-v-on.html)
 - [x] [V-on directive: implementing modifyers](https://github.com/thiagotesla/VueJS/blob/main/lessons/12-v-on-directive-implementing-modifyers.html)
 - [x] [Selecting child Html elements by ID](https://github.com/thiagotesla/VueJS/blob/main/lessons/13-selecting-child-html-elements-by-id.html)
+
+- [x] [V-if directive: html elements conditional render](https://github.com/thiagotesla/VueJS/blob/main/lessons/14-v-if-directive-html-elements-conditional-render.html)

@@ -33,3 +33,7 @@
 - [x] [Selecting child Html elements by ID](https://github.com/thiagotesla/VueJS/blob/main/lessons/13-selecting-child-html-elements-by-id.html)
 
 - [x] [V-if directive: html elements conditional render](https://github.com/thiagotesla/VueJS/blob/main/lessons/14-v-if-directive-html-elements-conditional-render.html)
+
+- [x] [V-show directive: html elements conditional show](https://github.com/thiagotesla/VueJS/blob/main/lessons/15-v-show-directive-html-elements-conditional-show.html)
+
+

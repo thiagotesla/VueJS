@@ -18,7 +18,7 @@
 - [x] VueJS introduction
 - [x] Installing development tools
 - [x] Inicialyzing frontend with VueJS
-- [x] First vue app (vue instace and doble mustache)
+- [x] [First vue app (vue instace and doble mustache)](https://github.com/thiagotesla/VueJS/blob/main/first-vue-app-vue-instace-and-doble-mustache.html)
 - [x] Exploring few more the 'data' propety
 - [x] Adding methods to the Vue instance
 - [x] Getting attributes from 'data'

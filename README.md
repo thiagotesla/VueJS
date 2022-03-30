@@ -30,3 +30,4 @@
 - [x] Catching event data through $event
 - [x] Hands on - practicing with data, methods, template string, v-bind and v-on
 - [x] V-on directive: implementing modifyers
+- [x] Selecting child Html elements by ID

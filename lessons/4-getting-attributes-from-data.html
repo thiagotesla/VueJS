@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./vue.js"></script>
+    <title>Vue</title>
+</head>
+<body>
+    <h1>Hello, World</h1>
+
+    <div id="app">
+           {{ sum() }} <br>
+           {{ subtraction() }} <br>
+           {{ multiplication() }} <br>
+           {{ division() }} <br>
+    </div>
+
+    <script>
+        new Vue({el: '#app',
+            data: {
+                n1: 10,
+                n2: 5
+            },
+            methods: {
+                sum: function sum(){  
+                    return this.n1 + this.n2
+                },
+                subtraction: function(){ 
+                    return this.n1 - this.n2
+                },
+                multiplication: () => { 
+                    return this.n1 * this.n2
+                },
+                division() { 
+                    return this.n1 / this.n2
+                },
+            }
+        })
+
+    </script>
+</body>
+</html>

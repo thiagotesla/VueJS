@@ -30,4 +30,4 @@
 - [x] [Catching event data through $event](https://github.com/thiagotesla/VueJS/blob/main/lessons/10-catching-event-data-through-dolar-event.html)
 - [x] [Hands on - practicing with data, methods, template string, v-bind and v-on](https://github.com/thiagotesla/VueJS/blob/main/lessons/11-hands-on-practicing-with-data-methods-template-string-v-bind-and-v-on.html)
 - [x] [V-on directive: implementing modifyers](https://github.com/thiagotesla/VueJS/blob/main/lessons/12-v-on-directive-implementing-modifyers.html)
-- [x] Selecting child Html elements by ID
+- [x] [Selecting child Html elements by ID](https://github.com/thiagotesla/VueJS/blob/main/lessons/13-selecting-child-html-elements-by-id.html)

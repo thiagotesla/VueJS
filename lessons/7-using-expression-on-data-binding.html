@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../vue.js"></script>
+    <title>Vue</title>
+    
+</head>
+
+<body >
+    <div id="app" style="text-align: center;">
+        <h1>Hello, World</h1>
+        {{ message }}:  just show message attribute value<br><hr> 
+        {{ message.length }}: show message attribure length<br><hr>
+        {{ message.toUpperCase() }}: put message attribute to UPPER Case<br><hr> 
+        {{ message.toLowerCase() }}: put message atribute to lower case<br><hr>
+        {{ +message.length + +message.length}}: make a number from message atribute length and sum with a number from message atribute length<br><hr> 
+        <p> <input  :value="message"></p><hr>
+        
+    </div>
+
+    <script>
+        new Vue({el: '#app',
+            data: {
+                message: 'Expression',
+            },
+            methods: {},
+        })
+
+    </script>
+</body>
+</html>

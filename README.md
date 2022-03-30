@@ -21,7 +21,7 @@
 - [x] [First vue app (vue instace and doble mustache)](https://github.com/thiagotesla/VueJS/blob/main/first-vue-app-vue-instace-and-doble-mustache.html)
 - [x] [Exploring few more the 'data' propety](https://github.com/thiagotesla/VueJS/blob/main/lessons/2-exploring-few-more-the-data-propety.html) 
 - [x] [Adding methods to the Vue instance](https://github.com/thiagotesla/VueJS/blob/main/lessons/3-adding-methods-to-the-vue-instance.html)
-- [x] Getting attributes from 'data'
+- [x] [Getting attributes from 'data'](https://github.com/thiagotesla/VueJS/blob/main/lessons/4-getting-attributes-from-data.html)
 - [x] Binding HTML tags attibutes by v-bind directive
 - [x] V-bind sugar syntax and value overlapping/chaining
 - [x] Using expression on data binding

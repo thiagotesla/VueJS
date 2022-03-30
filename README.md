@@ -18,9 +18,9 @@
 - [x] VueJS introduction
 - [x] Installing development tools
 - [x] Inicialyzing frontend with VueJS
-- [x] [First vue app (vue instace and doble mustache)](https://github.com/thiagotesla/VueJS/blob/main/lessons/1-first-vue-app-vue-instace-and-doble-mustache.html)
+- [x] [First vue app (vue instace and doble mustache)](https://github.com/thiagotesla/VueJS/blob/main/first-vue-app-vue-instace-and-doble-mustache.html)
 - [x] [Exploring few more the 'data' propety](https://github.com/thiagotesla/VueJS/blob/main/lessons/2-exploring-few-more-the-data-propety.html) 
-- [x] Adding methods to the Vue instance
+- [x] [Adding methods to the Vue instance](https://github.com/thiagotesla/VueJS/blob/main/lessons/3-adding-methods-to-the-vue-instance.html)
 - [x] Getting attributes from 'data'
 - [x] Binding HTML tags attibutes by v-bind directive
 - [x] V-bind sugar syntax and value overlapping/chaining

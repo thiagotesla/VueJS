@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../vue.js"></script>
+    <title>Vue</title>
+    <style>
+        .red{
+            color: red; 
+        }
+        .center{
+            text-align: center;
+        }
+        .bold{
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body >
+    <div id="app" :class="center">
+        <h1>Hello, World</h1>
+
+        <a :href="url">This Site</a> <br>
+        <p :class="color" class="bold"> Link to this same site </p>
+        <input :class="center" type="text" name="" id="" :placeholder="placeholder">
+        <input type="checkbox" name="" id="" :checked="check">
+        <select name="" id=""></select>
+    </div>
+
+    <script>
+        new Vue({el: '#app',
+            data: {
+                url: 'http://127.0.0.1:5500',
+                color: 'red',
+                placeholder: 'http://127.0.0.1:5500',
+                check: true,
+                center: 'center'
+            },
+            methods: {},
+        })
+
+    </script>
+</body>
+</html>

@@ -25,7 +25,7 @@
 - [x] [Binding HTML tags attibutes by v-bind directive](https://github.com/thiagotesla/VueJS/blob/main/lessons/5-binding-html-tags-attibutes-by-v-bind-directive.html)
 - [x] [V-bind sugar syntax and value overlapping/chaining](https://github.com/thiagotesla/VueJS/blob/main/lessons/6-v-bind-sugar-syntax-and-value-overlapping-chaining.html)
 - [x] [Using expression on data binding](https://github.com/thiagotesla/VueJS/blob/main/lessons/7-using-expression-on-data-binding.html)
-- [x] V-on directive: handling events and sugar syntax
+- [x] [V-on directive: handling events and sugar syntax](https://github.com/thiagotesla/VueJS/blob/main/lessons/8-v-on-directive-handling-events-and-sugar-syntax.html)
 - [x] Sending params to methods  
 - [x] Catching event data through $event
 - [x] Hands on - practicing with data, methods, template string, v-bind and v-on

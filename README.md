@@ -36,6 +36,8 @@
 
 - [x] [V-show directive: html elements conditional show](https://github.com/thiagotesla/VueJS/blob/main/lessons/15-v-show-directive-html-elements-conditional-show.html)
 
-- [x] [V-HTML: Injecting html element](https://github.com/thiagotesla/VueJS/blob/main/lessons/16-v-html-injecting-html-elements.html)
+- [x] [V-HTML directive: Injecting html element](https://github.com/thiagotesla/VueJS/blob/main/lessons/16-v-html-injecting-html-elements.html)
 
-- [x] [V-text: Injecting text](https://github.com/thiagotesla/VueJS/blob/main/lessons/17-v-text-injecting-text.html)
+- [x] [V-text directive: Injecting text](https://github.com/thiagotesla/VueJS/blob/main/lessons/17-v-text-injecting-text.html)
+
+- [x] [V-once directive: Avoiding that html elements be rendering again](https://github.com/thiagotesla/VueJS/blob/main/lessons/18-v-once-directive.html)

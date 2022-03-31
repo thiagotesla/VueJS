@@ -53,3 +53,5 @@
 - [x] [V-for directive: Implementing loops | part 4](https://github.com/thiagotesla/VueJS/blob/main/lessons/23-v-for-directive-implementing-loops-part-4.html)
 
 - [x] [Working with template tag to conditional render and list](https://github.com/thiagotesla/VueJS/blob/main/lessons/24-working-with-template-tag-to-conditional-render-and-list.html)
+
+- [x] [Working with computed propreties](https://github.com/thiagotesla/VueJS/blob/main/lessons/25-working-vithcomputed-propreties.html)

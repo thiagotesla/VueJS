@@ -60,3 +60,5 @@
 
 - [x] [V-model: Two way data binding](https://github.com/thiagotesla/VueJS/blob/main/lessons/27-v-model-two-way-data-binding.html)
 
+- [x] [Few more from v model directive](https://github.com/thiagotesla/VueJS/blob/main/lessons/28-few-more-from-v-model-directive.html)
+

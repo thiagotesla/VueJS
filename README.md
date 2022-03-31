@@ -57,3 +57,6 @@
 - [x] [Working with computed properties | part 1](https://github.com/thiagotesla/VueJS/blob/main/lessons/25-working-with-computed-properties-part-1.html)
 
 - [x] [Working with computed properties | part 2](https://github.com/thiagotesla/VueJS/blob/main/lessons/26-working-with-computed-properties-part-2.html)
+
+- [x] [V-model: Two way data binding](https://github.com/thiagotesla/VueJS/blob/main/lessons/27-v-model-two-way-data-binding.html)
+

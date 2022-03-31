@@ -49,3 +49,5 @@
 - [x] [List render with key-attribute](https://github.com/thiagotesla/VueJS/blob/main/lessons/21-list-render-with-key-attribute.html)
 
 - [x] [V-for directive: Implementing loops | part 3](https://github.com/thiagotesla/VueJS/blob/main/lessons/22-v-for-directive-implementing-loops-part-3.html)
+
+- [x] [V-for directive: Implementing loops | part 4](https://github.com/thiagotesla/VueJS/blob/main/lessons/23-v-for-directive-implementing-loops-part-4.html)

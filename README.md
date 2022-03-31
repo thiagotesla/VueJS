@@ -42,4 +42,6 @@
 
 - [x] [V-once directive: Avoiding that html elements be rendering again](https://github.com/thiagotesla/VueJS/blob/main/lessons/18-v-once-directive.html)
 
-- [x] [V-for directive: Implementing loops](https://github.com/thiagotesla/VueJS/blob/main/lessons/19-v-for-directive-implementing-loops-part-1.html)
+- [x] [V-for directive: Implementing loops | part 1](https://github.com/thiagotesla/VueJS/blob/main/lessons/19-v-for-directive-implementing-loops-part-1.html)
+
+- [x] [V-for directive: Implementing loops | part 2](https://github.com/thiagotesla/VueJS/blob/main/lessons/20-v-for-directive-implementing-loops-part-2.html)

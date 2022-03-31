@@ -55,3 +55,5 @@
 - [x] [Working with template tag to conditional render and list](https://github.com/thiagotesla/VueJS/blob/main/lessons/24-working-with-template-tag-to-conditional-render-and-list.html)
 
 - [x] [Working with computed properties | part 1](https://github.com/thiagotesla/VueJS/blob/main/lessons/25-working-with-computed-properties-part-1.html)
+
+- [x] [Working with computed properties | part 2](https://github.com/thiagotesla/VueJS/blob/main/lessons/26-working-with-computed-properties-part-2.html)

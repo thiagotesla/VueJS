@@ -62,5 +62,5 @@
 
 - [x] [Few more from v model directive](https://github.com/thiagotesla/VueJS/blob/main/lessons/28-few-more-from-v-model-directive.html)
 
-- [x] [Working woth watch properties](https://github.com/thiagotesla/VueJS/blob/main/lessons/29-working-with-watch-properties.html)
+- [x] [Working with watch properties](https://github.com/thiagotesla/VueJS/blob/main/lessons/29-working-with-watch-properties.html)
 

@@ -36,4 +36,4 @@
 
 - [x] [V-show directive: html elements conditional show](https://github.com/thiagotesla/VueJS/blob/main/lessons/15-v-show-directive-html-elements-conditional-show.html)
 
-
+- [x] [V-HTML: Injecting html element](https://github.com/thiagotesla/VueJS/blob/main/lessons/16-v-html-injecting-html-elements.html)

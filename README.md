@@ -51,3 +51,5 @@
 - [x] [V-for directive: Implementing loops | part 3](https://github.com/thiagotesla/VueJS/blob/main/lessons/22-v-for-directive-implementing-loops-part-3.html)
 
 - [x] [V-for directive: Implementing loops | part 4](https://github.com/thiagotesla/VueJS/blob/main/lessons/23-v-for-directive-implementing-loops-part-4.html)
+
+- [x] [Working with template tag to conditional render and list](https://github.com/thiagotesla/VueJS/blob/main/lessons/24-working-with-template-tag-to-conditional-render-and-list.html)
